@@ -20,5 +20,5 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
-app.Migrate();
+app.Migrate().GetAwaiter().GetResult();
 app.Run();

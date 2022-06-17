@@ -1,4 +1,4 @@
-﻿using CS.Sdk.Commons.Models;
+﻿using Balances.Commons.Models;
 using MediatR;
 
 namespace Balance.Api.Business.Features.RunSimple;

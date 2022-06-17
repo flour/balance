@@ -1,6 +1,7 @@
-﻿namespace Balance.Api.DataAccess.Repositories;
+﻿using Balance.Api.Commons.Domain;
 
-public interface IAccountsRepository
+namespace Balance.Api.DataAccess.Repositories;
+
+public interface IAccountsRepository : IBaseRepository<Account>
 {
-    
 }

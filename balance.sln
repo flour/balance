@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FCE50AF5-464
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balance.Api", "src\Balance.Api\Balance.Api.csproj", "{6072E812-0201-485E-B2C9-63B048734FAE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Balances.Commons", "src\Balances.Commons\Balances.Commons.csproj", "{ECDC1158-44F8-4E15-B9C8-20D1B6647E44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,8 +22,13 @@ Global
 		{6072E812-0201-485E-B2C9-63B048734FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6072E812-0201-485E-B2C9-63B048734FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6072E812-0201-485E-B2C9-63B048734FAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECDC1158-44F8-4E15-B9C8-20D1B6647E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECDC1158-44F8-4E15-B9C8-20D1B6647E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECDC1158-44F8-4E15-B9C8-20D1B6647E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECDC1158-44F8-4E15-B9C8-20D1B6647E44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6072E812-0201-485E-B2C9-63B048734FAE} = {FCE50AF5-464C-4AA1-9C95-5BA08DF804A4}
+		{ECDC1158-44F8-4E15-B9C8-20D1B6647E44} = {FCE50AF5-464C-4AA1-9C95-5BA08DF804A4}
 	EndGlobalSection
 EndGlobal
